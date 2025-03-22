@@ -1,0 +1,138 @@
+#container{
+    width: 1000px;
+    background-color: #227093;
+    margin: 0 auto; /* căn giữa */
+}
+
+
+#box{
+    border-bottom: 1px solid white;
+    height: 40px;
+}
+#box img{
+    width: 30px;
+    height: 20px;
+}
+#box ul{
+    list-style: none; /* Bỏ dấu chấm (•) mặc định của danh sách */
+    display: flex; /* Căn các mục theo hàng ngang */
+    align-items: center; /* Căn giữa nội dung theo chiều dọc */
+}
+#box ul li {
+    padding: 10px 20px; /* Khoảng cách giữa nội dung và viền */
+    border-left: 1px solid white; /* Tạo đường viền trắng giữa các mục */
+}
+#box ul li a {
+    text-decoration: none; /* Xóa gạch chân mặc định */
+    display: flex; /* Sắp xếp chữ và icon theo hàng ngang */
+    align-items: center; /* Căn giữa nội dung */
+    gap: 5px; /* Tạo khoảng cách giữa chữ và icon */
+    color: white;
+}
+#box ul p{
+    margin-left: auto;
+}
+#box ul li a span{
+    height: 20px;
+}
+
+
+#footer{
+    display: flex;
+}
+#footer ul{
+    display: flex;
+    align-items: center;
+}
+#footer ul li{
+    display: inline-block; /* hiển thị trên cùng 1 hàng nhưng vẫn chỉnh sửa đc width/height */
+    padding: 9px; /* k/cách giữa chữ và viền */
+}
+#footer ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 92px; /* k/cách bên trái */
+}
+
+
+#content{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+}
+#class-2{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    height: 15px;
+    padding: 10px;
+}
+#class-3 span{
+    display: block; /* Cho phép phần tử chiếm toàn bộ dòng */
+    border-bottom: 1px solid rgb(195, 193, 193);
+    padding-bottom: 5px; /* Khoảng cách giữa chữ và gạch dưới */
+}
+
+#header{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+}
+#header img{
+    width: 250px;
+}
+#main-1{
+    margin-left: 40px;
+    display: flex;
+    align-items: center; /* Căn giữa theo chiều dọc */
+    gap: 30px; /* Khoảng cách giữa ảnh và chữ */
+    max-width: 900px; /* Giới hạn chiều rộng tối đa */
+}
+#main-2 span{
+    width: 930px;
+    display: block; /* Cho phép phần tử chiếm toàn bộ dòng */
+    border-bottom: 1px solid rgb(195, 193, 193);
+    padding-bottom: 5px; /* Khoảng cách giữa chữ và gạch dưới */
+    margin-left: 38px;
+    margin-top: 25px;
+}
+#main-3{
+    margin-left: 40px;
+    display: flex;
+    align-items: center; /* Căn giữa theo chiều dọc */
+    gap: 30px; /* Khoảng cách giữa ảnh và chữ */
+    max-width: 900px; /* Giới hạn chiều rộng tối đa */
+    margin-top: 25px;
+}
+#main-4 span{
+    width: 930px;
+    display: block; /* Cho phép phần tử chiếm toàn bộ dòng */
+    border-bottom: 1px solid rgb(195, 193, 193);
+    padding-bottom: 5px; /* Khoảng cách giữa chữ và gạch dưới */
+    margin-left: 38px;
+    margin-top: 25px;
+}
+#main-5{
+    margin-left: 40px;
+    display: flex;
+    align-items: center; /* Căn giữa theo chiều dọc */
+    gap: 30px; /* Khoảng cách giữa ảnh và chữ */
+    max-width: 900px; /* Giới hạn chiều rộng tối đa */
+    margin-top: 25px;
+}
+#main-6 span{
+    width: 930px;
+    display: block; /* Cho phép phần tử chiếm toàn bộ dòng */
+    border-bottom: 1px solid rgb(195, 193, 193);
+    padding-bottom: 5px; /* Khoảng cách giữa chữ và gạch dưới */
+    margin-left: 38px;
+    margin-top: 25px;
+}
+#main-7{
+    margin-left: 40px;
+    display: flex;
+    align-items: center; /* Căn giữa theo chiều dọc */
+    gap: 30px; /* Khoảng cách giữa ảnh và chữ */
+    max-width: 900px; /* Giới hạn chiều rộng tối đa */
+    margin-top: 25px;
+}
